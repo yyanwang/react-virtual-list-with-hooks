@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.list-view {
+  position: relative;
+  overflow: auto;
+  border: 1px solid;
+}
+.list-view-phantom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.list-view-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.list-view-item {
+  /* height: 30px; */
+  /* line-height: 30px; */
+}
+.list-item-even {
+  background-color: beige;
+  width: 100%;
+}
